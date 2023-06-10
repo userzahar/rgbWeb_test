@@ -4,10 +4,9 @@ import {Logo} from "../Logo/Logo"
 
 export const Header=()=>{
     return<header>
-<Section>
-<Logo />
-<DataTime />
-</Section>
-        
+            <Section>
+            <Logo />
+            <DataTime />
+            </Section>
         </header>
 }
