@@ -10,9 +10,9 @@ export const Main=()=>{
                     <InfoSection/>
                     <ClientSection/>
             </Container>
-            <Container>
+
                     <Form></Form>
-            </Container>
+
         </Section>
     </main>
 }

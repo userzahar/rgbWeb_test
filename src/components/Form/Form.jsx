@@ -1,14 +1,23 @@
-import { useState } from "react"
+import { useState, useRef } from "react"
+import emailjs from '@emailjs/browser'
 
 export const Form=()=>{
     const [name, setName] = useState('');
     const [number, setNumber] = useState('');
     const [email, setEmail] = useState('');
 
-    const handleSubmit=(e)=>{
+    const form = useRef();
+
+    const handleSubmit = (e) => {
         e.preventDefault();
-         
-    }
+    
+        emailjs.sendForm('service_07m8yts', 'template_4ub1min', form.current, 'RusdV5L7AgTM8z7t2')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+      };
 
     const handleChange = ({ target }) => {
         switch (target.name) {
@@ -22,11 +31,13 @@ export const Form=()=>{
         }
     }
     return<div>
-    <form onSubmit={handleSubmit}>
+    <form ref={form}
+     onSubmit={handleSubmit}>
         <p>Запишитесь <span>бесплатно</span> и получите подарок</p>
         <input 
             type="text" 
-            placeholder="Ваше имя и фамилия" name="name"
+            placeholder="Ваше имя и фамилия" 
+            name="name"
             pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
             onChange={handleChange}
             value={name}

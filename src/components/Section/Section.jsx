@@ -1,3 +1,6 @@
+import { SectionStyled } from "./Section.styled"
+
+
 export const Section=({children})=>{
-    return <div>{children}</div>
+    return <SectionStyled>{children}</SectionStyled>
 }
