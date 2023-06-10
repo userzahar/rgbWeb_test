@@ -15,8 +15,8 @@ export const DataButton = styled.div`
   color: #fff;
   width: 141px;
   height: 40px;
-  padding: 12px 22px;
   border-radius: 8px;
+  justify-content: center;
 `;
 
 export const DataText = styled.p`
