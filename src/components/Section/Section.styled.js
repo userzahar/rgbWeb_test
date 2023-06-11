@@ -5,4 +5,7 @@ export const SectionStyled = styled.div`
   @media screen and (min-width: 1024px) {
     max-width: 1040px;
   }
+  @media screen and (max-width: 768px) {
+    max-width: 360px;
+  }
 `;

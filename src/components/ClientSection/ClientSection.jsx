@@ -1,6 +1,5 @@
 import Kiril from "../../images/Kiril.png";
 import surprice from "../../images/surprice.svg"
-import { FlexThumbStyled } from "../FlexThumb/FlexThumbStyled";
 
 import {BonusThumbStyled, ClientSectionStyled, ClientThumbStyled, FlexClientThumbStyled} from "./ClientSectionContainer"
 

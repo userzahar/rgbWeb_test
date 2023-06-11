@@ -7,6 +7,11 @@ export const FormStyledContainer = styled.div`
   background-color: #303a53;
   border-radius: 8px;
   z-index: 1;
+  @media screen and (max-width: 768px) {
+    padding: 41px 21px;
+    width: 328px;
+    height: 423px;
+  }
 
   & h2 {
     font-weight: 700;
@@ -14,6 +19,11 @@ export const FormStyledContainer = styled.div`
     line-height: 26px;
     text-align: center;
     margin-bottom: 20px;
+    @media screen and (max-width: 768px) {
+      font-size: 20px;
+      line-height: 23px;
+      margin-bottom: 18px;
+    }
   }
   & input {
     border: none;
@@ -23,6 +33,11 @@ export const FormStyledContainer = styled.div`
     background-color: #272d3d;
     border-radius: 8px;
     padding: 13px 22px;
+    @media screen and (max-width: 768px) {
+      width: 286px;
+      height: 46px;
+      padding: 12px 26.29px;
+    }
   }
   & button {
     font-weight: 700;
@@ -38,6 +53,15 @@ export const FormStyledContainer = styled.div`
     border-color: #ff3459;
     background-color: #ff3459;
     cursor: pointer;
+
+    @media screen and (max-width: 768px) {
+      width: 222.25px;
+      height: 45.55px;
+      margin-bottom: 18.45px;
+
+      font-size: 14px;
+      line-height: 22px;
+    }
   }
   & button:hover {
     border-color: #ff002e;
@@ -49,6 +73,9 @@ export const FormStyledContainer = styled.div`
     line-height: 149%;
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
+    @media screen and (max-width: 768px) {
+      font-size: 11px;
+    }
   }
   & a {
     color: rgba(255, 255, 255, 0.5);

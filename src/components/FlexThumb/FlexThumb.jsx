@@ -1,3 +1,6 @@
-export const FlexThumb=({children})=>{
-    return <div>{children}</div>
+import { FlexThumbStyled } from "./FlexThumbStyled"
+
+
+export const FlexThumb = ({ children }) => {
+    return <FlexThumbStyled>{children}</FlexThumbStyled>
 }

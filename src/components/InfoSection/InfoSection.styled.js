@@ -8,6 +8,7 @@ export const InfoSectionThumb = styled.div`
   display: flex;
   align-items: center;
   border-radius: 8px;
+
   & p {
     font-size: 16px;
     line-height: 24px;
@@ -34,6 +35,11 @@ export const GeneralText = styled.p`
   font-weight: 400;
   font-size: 18px;
   line-height: 148%;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 16px;
+    font-size: 14px;
+  }
 
   & span {
     display: inline-block;

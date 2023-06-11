@@ -5,6 +5,7 @@ export const HeaderStyled = styled.header`
   height: 104px;
   box-sizing: border-box;
   @media screen and (max-width: 768px) {
-    padding: 24px 0px;
+    padding: 24px 0 0 0;
+    height: 56px;
   }
 `;

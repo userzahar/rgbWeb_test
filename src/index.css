@@ -10,14 +10,13 @@
 body {
   margin: 0;
   font-family:Gilroy, sans-serif;
-    font-family: 'Gilroy';
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #272D3D;
+  
   color:#fff;
 
   height: 100vh;
@@ -29,6 +28,11 @@ body {
   );
   background-position: right 5% bottom 68%;
   background-repeat: no-repeat;
+  @media screen and (max-width: 768px) {
+        background-image: linear-gradient(to top, #302e5a 12%,
+          #272D3D 39% );
+            background-color:#302e5a;
+      }
 }
 body div{
   box-sizing: border-box;
