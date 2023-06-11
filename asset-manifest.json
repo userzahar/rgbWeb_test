@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/rgbweb_test/static/css/main.c6530af2.css",
+    "main.css": "/rgbweb_test/static/css/main.e7534cea.css",
     "main.js": "/rgbweb_test/static/js/main.b1d70047.js",
     "static/media/background.svg": "/rgbweb_test/static/media/background.85f3be989dca19e38c22.svg",
     "static/media/Gilroy-Bold.ttf": "/rgbweb_test/static/media/Gilroy-Bold.901a60fc2835c74fba67.ttf",
@@ -15,11 +15,11 @@
     "index.html": "/rgbweb_test/index.html",
     "static/media/calendar.svg": "/rgbweb_test/static/media/calendar.29eb18fa242a60dbb8d060e77182b172.svg",
     "static/media/time.svg": "/rgbweb_test/static/media/time.9edfd2026d61476dcf98b51639da786e.svg",
-    "main.c6530af2.css.map": "/rgbweb_test/static/css/main.c6530af2.css.map",
+    "main.e7534cea.css.map": "/rgbweb_test/static/css/main.e7534cea.css.map",
     "main.b1d70047.js.map": "/rgbweb_test/static/js/main.b1d70047.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6530af2.css",
+    "static/css/main.e7534cea.css",
     "static/js/main.b1d70047.js"
   ]
 }
