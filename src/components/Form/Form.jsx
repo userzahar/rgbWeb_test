@@ -1,5 +1,6 @@
 import { useState, useRef } from "react"
 import emailjs from '@emailjs/browser'
+import { FormStyledContainer } from "./Form.styled";
 
 export const Form=()=>{
     const [name, setName] = useState('');
@@ -30,10 +31,10 @@ export const Form=()=>{
             default: ;
         }
     }
-    return<div>
+    return (<FormStyledContainer>
     <form ref={form}
      onSubmit={handleSubmit}>
-        <p>Запишитесь <span>бесплатно</span> и получите подарок</p>
+        <h2>Запишитесь <span>бесплатно</span> и получите подарок</h2>
         <input 
             type="text" 
             placeholder="Ваше имя и фамилия" 
@@ -61,8 +62,8 @@ export const Form=()=>{
             value={email}
             />
         <button type="submit">Записаться бесплатно</button>
-        <p>Нажимая на кнопку я согашаюсь 
-<a href="">с политикой конфидециальности</a></p>
+        <p>Нажимая на кнопку я согашаюсь <br/>
+<a href=""> с политикой конфидециальности</a></p>
     </form>
-    </div>
+    </FormStyledContainer>)
 }

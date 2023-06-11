@@ -29,4 +29,13 @@ export const GeneralText = styled.p`
   font-weight: 400;
   font-size: 18px;
   line-height: 148%;
+
+  & span {
+    display: inline-block;
+    background-color: #4252d1;
+    border-radius: 8px;
+    margin-left: 9px;
+    width: 90px;
+    text-align: center;
+  }
 `;

@@ -19,8 +19,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #272D3D;
   color:#fff;
+  /* background-image: radial-gradient(
+    circle at bottom left,
+    #000000,
+    #000000 50%,
+    #00a7e1
+  ); */
 }
 body div{
+  box-sizing: border-box;
+}
+body input{
   box-sizing: border-box;
 }
 body p  {
@@ -31,6 +40,10 @@ body h2  {
 }
 body h6  {
   margin:0;
+}
+body ul  {
+  margin:0;
+  padding: 0;
 }
 
 code {

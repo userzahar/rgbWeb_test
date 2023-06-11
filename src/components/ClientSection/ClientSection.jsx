@@ -1,20 +1,24 @@
 import Kiril from "../../images/Kiril.png";
 import surprice from "../../images/surprice.svg"
+import { FlexThumbStyled } from "../FlexThumb/FlexThumbStyled";
+
+import {BonusThumbStyled, ClientSectionStyled, ClientThumbStyled, FlexClientThumbStyled} from "./ClientSectionContainer"
+
 export const ClientSection =()=>{
-    return <>
-    <div>
-        <img src={Kiril} alt="На фото Кирил с ноутбуком" />
-        <div>
-            <h6>Кирилл <span>КАСАТОНОВ</span></h6>
+    return <ClientSectionStyled>
+    <FlexClientThumbStyled>
+        <img src={Kiril} alt="На фото Кирил с ноутбуком" style={{width:"52px", height:"49.27px"}} />
+        <ClientThumbStyled>
+            <h6>КИРИЛЛ <span>КАСАТОНОВ</span></h6>
             <p>6 лет коммерческого опыта с такими  компаниями как Mercedes-Benz и другими крупными корпорациями</p>
-        </div>
-    </div>
-    <div>
-        <img src={surprice} alt="Подарочная коробка" />
-        <div>
+        </ClientThumbStyled>
+    </FlexClientThumbStyled>
+    <FlexClientThumbStyled>
+        <img src={surprice} alt="Подарочная коробка" style={{width:"37.81px", height:"37.81px"}} />
+        <BonusThumbStyled>
             <h6>Бонус за регистрацию</h6>
             <p>PDF-файл "5 преимуществ профессии фронтенд разработчика"</p>
-        </div>
-    </div>
-    </>
+        </BonusThumbStyled>
+    </FlexClientThumbStyled>
+    </ClientSectionStyled>
 }

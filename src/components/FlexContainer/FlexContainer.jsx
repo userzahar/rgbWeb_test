@@ -1,3 +1,5 @@
+import { FlexContainerStyled } from "./FlexContainer.styled"
+
 export const FlexContainer =({children})=>{
-    return <div style={{display:"flex"}}>{children}</div>
+    return <FlexContainerStyled>{children}</FlexContainerStyled>
 }
