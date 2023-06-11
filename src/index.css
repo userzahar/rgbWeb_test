@@ -19,12 +19,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #272D3D;
   color:#fff;
-  /* background-image: radial-gradient(
-    circle at bottom left,
-    #000000,
-    #000000 50%,
-    #00a7e1
-  ); */
+
+  height: 100vh;
+  background-image: 
+  url("./images/background.svg"),
+  radial-gradient(
+    circle at top right,
+    #302e5a 12%, #272D3D 39%
+  );
+  background-position: right 5% bottom 68%;
+  background-repeat: no-repeat;
 }
 body div{
   box-sizing: border-box;

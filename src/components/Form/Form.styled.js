@@ -6,6 +6,7 @@ export const FormStyledContainer = styled.div`
   padding: 50px 58px;
   background-color: #303a53;
   border-radius: 8px;
+  z-index: 1;
 
   & h2 {
     font-weight: 700;
