@@ -22,6 +22,11 @@ export const RedText = styled.h2`
   text-transform: uppercase;
 
   color: #ff3459;
+  @media screen and (max-width: 768px) {
+    font-weight: 800;
+    font-size: 52.7273px;
+    line-height: 65px;
+  }
 `;
 
 export const GeneralText = styled.p`

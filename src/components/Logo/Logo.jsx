@@ -1,6 +1,7 @@
 import LogoSVG from "../../images/Logo.svg"
+import { LogoSizeIMG } from "./Logo.styled"
 export const Logo=()=>{
     return(<div>
-        <img src={LogoSVG} alt="logo" />
+        <LogoSizeIMG src={LogoSVG} alt="logo" />
     </div>)
 }

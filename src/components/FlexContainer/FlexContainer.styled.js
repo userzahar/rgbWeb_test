@@ -1,10 +1,12 @@
 import { styled } from "styled-components";
-// import backgroundImage from ;
 export const FlexContainerStyled = styled.div`
   display: flex;
   padding: 90px 32px 27px 32px;
-
   justify-content: space-between;
-
-  background-image: url("../../images/BG.png");
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 32px 16px 16px 16px;
+  }
 `;
