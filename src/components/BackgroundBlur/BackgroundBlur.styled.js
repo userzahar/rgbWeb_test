@@ -11,4 +11,11 @@ export const BackgroundBlurStyled = styled.div`
   opacity: 0.5;
   filter: blur(103.131px);
   transform: rotate(9.41deg);
+  @media screen and (max-width: 768px) {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: -99999px;
+    left: -99999px;
+  }
 `;
