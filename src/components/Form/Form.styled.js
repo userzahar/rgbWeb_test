@@ -58,7 +58,8 @@ export const FormStyledContainer = styled.div`
       width: 222.25px;
       height: 45.55px;
       margin-bottom: 18.45px;
-
+      border-color: #0048ff;
+      background-color: #0048ff;
       font-size: 14px;
       line-height: 22px;
     }
@@ -66,6 +67,10 @@ export const FormStyledContainer = styled.div`
   & button:hover {
     border-color: #ff002e;
     background-color: #ff002e;
+    @media screen and (max-width: 768px) {
+      border-color: #3b73ff;
+      background-color: #3b73ff;
+    }
   }
   & p {
     font-weight: 500;
