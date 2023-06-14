@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rgbweb_test/static/css/main.e7534cea.css",
-    "main.js": "/rgbweb_test/static/js/main.7d5df12e.js",
+    "main.css": "/rgbweb_test/static/css/main.7a55f74d.css",
+    "main.js": "/rgbweb_test/static/js/main.7b9b3ef8.js",
     "static/media/background.svg": "/rgbweb_test/static/media/background.85f3be989dca19e38c22.svg",
     "static/media/Gilroy-Bold.ttf": "/rgbweb_test/static/media/Gilroy-Bold.901a60fc2835c74fba67.ttf",
     "static/media/surprice.svg": "/rgbweb_test/static/media/surprice.515bb26dc29fd2c2dd36805e2bc1b6ee.svg",
@@ -15,11 +15,11 @@
     "index.html": "/rgbweb_test/index.html",
     "static/media/calendar.svg": "/rgbweb_test/static/media/calendar.29eb18fa242a60dbb8d060e77182b172.svg",
     "static/media/time.svg": "/rgbweb_test/static/media/time.9edfd2026d61476dcf98b51639da786e.svg",
-    "main.e7534cea.css.map": "/rgbweb_test/static/css/main.e7534cea.css.map",
-    "main.7d5df12e.js.map": "/rgbweb_test/static/js/main.7d5df12e.js.map"
+    "main.7a55f74d.css.map": "/rgbweb_test/static/css/main.7a55f74d.css.map",
+    "main.7b9b3ef8.js.map": "/rgbweb_test/static/js/main.7b9b3ef8.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7534cea.css",
-    "static/js/main.7d5df12e.js"
+    "static/css/main.7a55f74d.css",
+    "static/js/main.7b9b3ef8.js"
   ]
 }
