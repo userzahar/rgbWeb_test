@@ -71,7 +71,7 @@ export const Form=()=>{
             />
         <button type="submit">Записаться бесплатно</button>
         <p>Нажимая на кнопку я согашаюсь <br/>
-<a href=""> с политикой конфидециальности</a></p>
+<a href="/"> с политикой конфидециальности</a></p>
     </form>
     </FormStyledContainer>)
 }
