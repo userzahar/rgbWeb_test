@@ -26,7 +26,7 @@ body {
     circle at top right,
     #302e5a 12%, #272D3D 39%
   );
-  background-position: right 14% bottom 63%;;
+  background-position: right 0% bottom 63%;
   background-repeat: no-repeat;
   
 @media screen and (max-width: 768px) {

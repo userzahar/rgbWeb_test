@@ -18,6 +18,7 @@ export const Form=()=>{
           }, (error) => {
               console.log(error.text);
           });
+          reset();
       };
 
     const handleChange = ({ target }) => {
@@ -31,6 +32,13 @@ export const Form=()=>{
             default: ;
         }
     }
+
+    const reset = ()=>{
+        setName("");
+        setNumber("");
+        setEmail("");
+    }
+
     return (<FormStyledContainer>
     <form ref={form}
      onSubmit={handleSubmit}>
